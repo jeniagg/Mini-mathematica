@@ -3,8 +3,8 @@ package mini_matematica;
 import java.util.Stack;
 
 public class ShuntingYard {
-	public static final double pi = 3.14;
-	public static final double e = 2.71;
+	public static final double PI = 3.14;
+	public static final double R = 2.71;
 
 	static String infixToPostfix(String infix) {
 		final String operations = "-+/*^";
@@ -118,9 +118,9 @@ public class ShuntingYard {
 		if (isNumeric(op)) {
 			return Double.parseDouble(op);
 		} else if (op.equals("e")) {
-			return e;
+			return R;
 		} else if (op.equals("pi")) {
-			return pi;
+			return PI;
 		} else {
 			return doAdvancedCalc(op);
 		}

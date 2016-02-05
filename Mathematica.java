@@ -6,7 +6,7 @@ public class Mathematica {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String expr = ShuntingYard.infixToPostfix(scanner.nextLine());
-		System.out.println("Shunting Yard Rosetta: " + expr);
+		System.out.println("Shunting Yard: " + expr);
 		RPN.evalRPN(expr);
 		scanner.close();
 	}
