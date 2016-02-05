@@ -9,6 +9,5 @@ public class Mathematica {
 		System.out.println("Shunting Yard Rosetta: " + expr);
 		RPN.evalRPN(expr);
 		scanner.close();
-		
 	}
 }

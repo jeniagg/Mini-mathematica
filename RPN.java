@@ -53,8 +53,7 @@ public class RPN {
 			}
 			System.out.println(stack);
 		}
-		System.out.println("Final answer: " + stack.pop());
+		System.out.println("The answer: " + stack.pop());
 	}
 
 }
-
